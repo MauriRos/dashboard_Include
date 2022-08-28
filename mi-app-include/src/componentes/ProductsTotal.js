@@ -14,7 +14,7 @@ export default function ProductsTotal() {
 
     return (
         <><div>
-            <h5>Total de productos</h5>
+            {/* <h5>Total de productos</h5> */}
             {!countProducts ? "cargando..." : countProducts}
         </div>
         </>

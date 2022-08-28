@@ -16,7 +16,7 @@ export default function CategoriesTotal() {
 
   return (
     <div>
-        <h5>Total de categorías de productos</h5>
+        {/* <h5>Total de categorías de productos</h5> */}
         {!countCategories ? "cargando..." : countCategories }
       </div>
   )

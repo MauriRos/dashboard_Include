@@ -4,7 +4,7 @@ import Card from "../components/Card"
 function Cards() {
     return (
         <div className="container d-flex  justify-content-*-between align-item-center">
-            <div className="row">
+            <div className="row h-100">
                 <div className="col-md-4">
                     <LastProduct />
                 </div>

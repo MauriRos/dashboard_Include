@@ -24,7 +24,7 @@ export default function Users() {
     }, []);
     return (
         <><div>
-                <h5>Total de usuarios registrados</h5>
+                {/* <h5>Total de usuarios registrados</h5> */}
                 {!countUsers ? "cargando..." : countUsers}
             </div></>
     )
