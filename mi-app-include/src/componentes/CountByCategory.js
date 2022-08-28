@@ -15,8 +15,11 @@ export default function CountByCategory() {
 
     return (
         <div>
+                <div className="card bg-transparent pt-3">
+                    <div className="card-body text-light">
             <ul>
-                <h5>Productos por categoría</h5>
+                        <h4 className="card-title">Productos por categoría</h4>
+                    
                 {!categories ? "cargando..." :
                     <>
                         <li>Top: {categories.top}</li>
@@ -24,6 +27,8 @@ export default function CountByCategory() {
                         <li>Accesorios: {categories.accesorios}</li>
                     </>}
             </ul>
+                    </div>
+                </div>
         </div>
     )
 

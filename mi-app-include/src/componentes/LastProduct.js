@@ -23,9 +23,9 @@ export default function LastProduct() {
       {!lastProduct ? "cargando..." :
 
         <div className="card bg-transparent pt-3">
+            <h5 className="card-body text-center mb-0">Último producto</h5>
           <img src={imagen} alt="imagen producto" />
           <div className="card-body text-light">
-            <h5 className="card-title text-center">Último producto</h5>
             <h4 className="card-title">{lastProduct.name}</h4>
             <ul>
               <li><b>Descripción:</b> {lastProduct.description}</li>
