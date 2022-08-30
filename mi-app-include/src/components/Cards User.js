@@ -7,12 +7,12 @@ import CountByCategory from '../componentes/CountByCategory';
 function CardsUser() {
     return (
         <div className="container d-flex  w-100 align-item-center">
-            <div className="row h-100 justify-content-evenly ">
-                <div className="col-md-5">
+            <div className="row h-100 w-100 justify-content-center ">
+                <div className="col-md-6">
                     <LastUser />
                 </div>
                 <div className="col-md-5">
-                    <CountByCategory />
+                    {/* <CountByCategory /> */}
                     <UsersList />
                 </div>    
             </div>

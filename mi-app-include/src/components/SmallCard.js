@@ -6,7 +6,7 @@ import * as FaIcons from "react-icons/fa"
 
 function SmallCard() {
     return (
-        <div className="row w-100 justify-content-*-between row-cols-1 row-cols-md-3 g-4">
+        <div className="row w-100 m-auto justify-content-*-between row-cols-1 row-cols-md-3 g-4">
             <div className="col">
                 <div className="card h-100 bg-transparent">
                     

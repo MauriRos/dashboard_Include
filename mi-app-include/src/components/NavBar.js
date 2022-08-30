@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText,
 } from 'reactstrap';
+import * as FaIcons from "react-icons/fa"
 
 function NavBar(args) {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,23 +29,23 @@ function NavBar(args) {
           <Nav className="me-auto" navbar>
             
             <NavItem>
-              <NavLink href="http://localhost:3000/" >
+              <NavLink id="uncontrolledDropdown" href="http://localhost:3000/" >
                 Home Include
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown id="uncontrolledDropdown" nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Redes Sociales
               </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+              <DropdownMenu right dark className="bg-color-black color-white">
+                <DropdownItem><FaIcons.FaFacebook className="me-1"/>include_market</DropdownItem>
+                <DropdownItem><FaIcons.FaTwitter className="me-1"/>include.ok</DropdownItem>
+                <DropdownItem><FaIcons.FaInstagram className="me-1"/>somosINCLUDE</DropdownItem>
+                <DropdownItem><FaIcons.FaPinterest className="me-1"/>includeRealStyle</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText id="uncontrolledDropdown">Gracias!!</NavbarText>
         </Collapse>
       </Navbar>
     </div>

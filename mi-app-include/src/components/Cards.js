@@ -7,7 +7,7 @@ import CountByCategory from '../componentes/CountByCategory';
 function Cards() {
     return (
         <div className="container d-flex  w-100 align-item-center">
-            <div className="row h-100 justify-content-evenly ">
+            <div className="row w-100 justify-content-evenly ">
                 <div className="col-md-5">
                     <LastProduct />
                 </div>

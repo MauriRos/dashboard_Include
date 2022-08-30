@@ -53,3 +53,10 @@ $gray: #e7e9eb3b;
   background-color: $light;
   color: white
 }
+
+@media (max-width: 770px) {
+
+  #uncontrolledDropdown{
+    display: none;
+  }
+}
