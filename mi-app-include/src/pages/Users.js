@@ -1,7 +1,9 @@
+import CardsUser from "../components/Cards User";
+
 const Users = () => {
     return(
         <div>
-            <p>Users</p>
+            <CardsUser />
         </div>
     )
 }
