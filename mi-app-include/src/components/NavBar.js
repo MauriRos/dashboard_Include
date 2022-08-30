@@ -26,12 +26,10 @@ function NavBar(args) {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
+            
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+              <NavLink href="http://localhost:3000/" >
+                Home Include
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>

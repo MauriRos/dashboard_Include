@@ -8,7 +8,7 @@ function WelcomeCard() {
       <Card.ImgOverlay>
         <Card.Title>Bienvenidx</Card.Title>
         <Card.Text className="w-50">
-          Concluciones y estadisticas de nuestra pagina web
+          Conclusiones y estadisticas de nuestra pagina web
         </Card.Text>
         <Card.Text>Actualizado 08-2022</Card.Text>
       </Card.ImgOverlay>

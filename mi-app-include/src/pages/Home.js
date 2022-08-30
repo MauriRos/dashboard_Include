@@ -1,7 +1,9 @@
+import SmallCard from "../components/SmallCard";
+
 const Home = () => {
     return (
         <div>
-            <p>Home</p>
+            <SmallCard />
         </div>
     )
 }
