@@ -27,7 +27,7 @@ export default function UsersList() {
                     )
                   })}
             </ul>
-          {/* <a href={urlusersList} className="btn btn-outline-secondary rounded-0 w-50 text-center">Ir a Listado de usuarixs</a> */}
+            <a href="http://localhost:3000/user/loginRegister" className="btn btn-outline-secondary rounded-0 w-80 text-center">Aquí para Registrarte</a>
         </div>
       </div>
     </div>

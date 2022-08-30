@@ -30,7 +30,6 @@ export default function LastUser() {
               <li><b>Email:</b> {lastUser.email}</li>
               <li><b>ID:</b> {lastUser.id}</li>
             </ul>
-            {/* <a href={urlUser} className="btn btn-outline-secondary rounded-0 w-80 text-center">Detalle del usuarix</a> */}
           </div>
         </div>
       }

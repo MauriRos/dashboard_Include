@@ -28,7 +28,10 @@ export default function ProductsList() {
                     )
                   })}
             </ul>
-          <a href={urlProductsList} className="btn btn-outline-secondary rounded-0 w-50 text-center">Ir a Listado de Productos</a>
+            <div className="m-auto">
+              <a href={urlProductsList} className="btn btn-outline-secondary rounded-0 w-45 text-center m-1">Ir a Listado de Productos</a>
+              <a href="http://localhost:3000/products/create" className="btn btn-outline-secondary rounded-0 w-45 text-center m-1">Crear nuevo Producto</a>
+            </div>
         </div>
       </div>
     </div>
